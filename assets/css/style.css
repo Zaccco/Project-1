@@ -101,7 +101,7 @@ h2 {
     width: 90%;
     height: 600px;
     margin: 0 auto;
-    padding-top: 105px;
+    padding: 50px;
 }
 
 /* Drivers */
@@ -134,6 +134,18 @@ h2 {
     line-height: 100px;
     background-color: #da291c;
     color: white;
+}
+
+.right a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.right a:hover {
+    font-size: 130%;
+    color: black;
 }
 
 .left img {
