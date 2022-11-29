@@ -89,3 +89,55 @@ h1, h2 {
     }
 }
 
+/* Drivers */
+
+.container {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#driver1, #driver2 {
+    width: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#driver1 {
+    float: left;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+#driver2 {
+    float: right;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+    height: 600px;
+    line-height: 100px;
+}
+
+.one {
+    height: 600px;
+    width: 50%;
+    background: url('../images/leclerc.jpg') no-repeat center center;
+}
+
+.two {
+    height: 600px;
+    width: 50%;
+    background: url('../images/sainz.jpg') no-repeat center center;
+}
+
+
