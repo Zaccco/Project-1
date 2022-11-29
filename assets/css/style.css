@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,15 +7,18 @@
 }
 
 body {
+    font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
 
-/* heading and logo */
+/* headings and logo */
 
 h1, h2 {
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    color: #252525;
+    letter-spacing: 4px;
+    color:#252525;
 }
 
 #logo {
