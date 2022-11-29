@@ -22,16 +22,31 @@ h1, h2 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
     padding-bottom: 30px;
 }
+
+header {
+    height: 75px;
+    width: 100%;
+    background-color: #da291c;
+}
+
 
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 150px;
-    color: #da291c;
+    color: white;
+}
+
+#logo img {
+    height: 50px;
+    width: 80px;
+    line-height: 75px;
+    float: left;
+    padding-top: 15px;
 }
 
 /* navigation links */
@@ -60,18 +75,19 @@ h2 {
     color: white;
 }
 
-#menu a:hover {
-    background-color: rgba(255, 0, 0, .5);
+#menu li:hover, #menu a:hover  {
+    background-color: black;
 }
 
-#menu a:active {
+#menu li:active, #menu a:active {
     background-color: white;
     color:#da291c;
 }
 
 .active {
-    background-color: #da291c;
-    color: white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 8%;
 }
 
 /* hero image */
@@ -112,6 +128,9 @@ h2 {
     height: 600px;
     margin: 0 auto;
     padding: 50px;
+    background-color: #f7f4f1;
+    border-radius: 25px;
+    box-sizing: border-box;
 }
 
 /* Drivers */
@@ -165,4 +184,39 @@ h2 {
 .left img {
     height: 100%;
     width: 100%;
+}
+
+/* Table Constructor */
+
+table {
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    border: 1px solid red;
+    float: left;
+    background-color: #da291c;
+    color: white;
+}
+
+th {
+    font-size: 200%;
+}
+
+td {
+    text-align: center;
+}
+
+td img {
+    height: 25px;
+    width: 35px;
+}
+
+#information {
+    width: 50%;
+    height: 50%;
+    float: right;
+    font-size: 1.5rem;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid green;
 }
