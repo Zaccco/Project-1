@@ -129,8 +129,6 @@ header {
     margin: 0 auto;
     padding: 50px;
     background-color: #f7f4f1;
-    border-radius: 25px;
-    box-sizing: border-box;
 }
 
 /* Drivers */
@@ -190,20 +188,23 @@ header {
 
 table {
     width: 50%;
-    height: 50%;
+    height: 100%;
     padding: 10px;
-    border: 1px solid red;
     float: left;
-    background-color: #da291c;
-    color: white;
 }
 
 th {
-    font-size: 200%;
+    font-size: 3rem;
+    background-color: lightgrey;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
 td {
     text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 10px;
 }
 
 td img {
@@ -211,9 +212,49 @@ td img {
     width: 35px;
 }
 
+#redbull {
+    background-color: rgb(0, 21, 42)
+}
+
+#ferrari {
+    background-color: rgb(218, 41, 28)
+}
+
+#mercedes {
+    background-color: rgb(12, 165, 151);
+}
+
+#alpine {
+    background-color: rgb(12, 29, 44);
+}
+
+#mclaren {
+    background-color: rgb(255, 158, 27);
+}
+
+#alfa {
+    background-color: rgb(165, 29, 47);
+}
+
+#aston {
+    background-color: rgb(0, 53, 47);
+}
+
+#haas {
+    background-color: rgb(236, 26, 59);
+}
+
+#alpha {
+    background-color: rgb(1, 19, 33);
+}
+
+#williams {
+    background-color: rgb(4, 30, 66);
+}
+
 #information {
     width: 50%;
-    height: 50%;
+    height: 100%;
     float: right;
     font-size: 1.5rem;
     padding: 20px;
