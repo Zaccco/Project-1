@@ -21,6 +21,12 @@ h1, h2 {
     color:#252525;
 }
 
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 30px;
+}
+
 #logo {
     float: left;
     font-size: 280%;
@@ -89,14 +95,16 @@ h1, h2 {
     }
 }
 
-/* Drivers */
+/* Container for symmetry */
 
 .container {
-    width: 1200px;
+    width: 90%;
     height: 600px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 105px;
 }
+
+/* Drivers */
 
 #driver1, #driver2 {
     width: 50%;
@@ -106,38 +114,29 @@ h1, h2 {
 
 #driver1 {
     float: left;
-    border: 1px solid red;
-    box-sizing: border-box;
 }
 
 #driver2 {
     float: right;
-    border: 1px solid blue;
-    box-sizing: border-box;
 }
 
 .left {
+    height: 600px;
     width: 50%;
     float: left;
 }
 
 .right {
+    height: 600px;
     width: 50%;
     float: right;
     height: 600px;
     line-height: 100px;
+    background-color: #da291c;
+    color: white;
 }
 
-.one {
-    height: 600px;
-    width: 50%;
-    background: url('../images/leclerc.jpg') no-repeat center center;
+.left img {
+    height: 100%;
+    width: 100%;
 }
-
-.two {
-    height: 600px;
-    width: 50%;
-    background: url('../images/sainz.jpg') no-repeat center center;
-}
-
-
