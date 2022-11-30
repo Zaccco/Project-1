@@ -10,6 +10,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-color: #f7f4f1;
 }
 
 /* headings and logo */
@@ -73,9 +74,15 @@ header {
     background-color: #da291c;
     padding: 10px;
     color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
-#menu li:hover, #menu a:hover  {
+#menu li:hover {
+    font-size: 105%;
+}
+ 
+#menu a:hover  {
     background-color: black;
     font-size: 105%;
 }
@@ -96,20 +103,20 @@ header {
 #mini-container {
     height: 400px;
     width: 100%;
+    background-color: #fff;
 }
 
 #hero-outer {
     height: 100%;
-    width: 70%;
+    width: 75%;
     overflow: hidden;
     float: left;
-    border: 1px solid blue;
     box-sizing: border-box;
 }
 
 #hero-image {
     height: 100%;
-    width: 70%;
+    width: 75%;
     float: left;
     background: url('../images/ferrari-car.jpg') no-repeat center center;
 
@@ -130,16 +137,33 @@ header {
 }
 
 #team-info {
-    float: right;
-    height: 100%;
-    width: 30%;
-    border: 1px solid green;
+    height: 300px;
+    width: 28%;
     box-sizing: border-box;
     padding: 20px;
+    background-color: lightgrey;
+    border-radius: 35%;
+    position: absolute;
+    top: 160px;
+    right: 15%;
+    box-shadow: 10px 10px 8px #da291c;
+    text-align: center;
 }
 
 #team-info h3 {
-    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#team-info p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 8px;
+    font-weight: 500;
+}
+
+p span {
+    font-weight: 800;
 }
 
 /* Container for sections */
@@ -149,7 +173,6 @@ header {
     height: 600px;
     margin: 0 auto;
     padding: 40px 50px 75px 50px;
-    background-color: #f7f4f1;
 }
 
 /* Drivers */
