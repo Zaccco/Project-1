@@ -156,6 +156,7 @@ header {
 #team-info h3 {
     font-size: 2rem;
     font-weight: 800;
+    text-shadow: 5px 5px 4px #da291c;
 }
 
 #team-info p {
@@ -366,6 +367,11 @@ tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
     width: 100%;
 }
 
+.profile h2 {
+    text-shadow: 5px 5px 4px #da291c;
+    color: black;
+}
+
 .results {
     height: 100%;
     width: 65%;
@@ -392,12 +398,14 @@ tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
     height: 50%;
     width: 50%;
     float: left;
+    border-radius: 10px 0 0 10px;
 }
 
 .worst-five {
     height: 50%;
     width: 50%;
     float: right;
+    border-radius: 0 10px 10px 0;
 }
 
 #recap {
@@ -406,5 +414,4 @@ tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
     text-align: justify;
     font-size: 1.65rem;
     padding: 10px 40px;
-    box-sizing: border-box;
 }
