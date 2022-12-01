@@ -75,18 +75,9 @@ header {
     color: white;
     font-size: 1.3rem;
 }
-
-#menu li:hover {
-    font-size: 105%;
-}
  
 #menu a:hover  {
     background-color: black;
-    font-size: 105%;
-}
-
-#menu li:active {
-    color: #da291c;
 }
 
 #menu a:active {
