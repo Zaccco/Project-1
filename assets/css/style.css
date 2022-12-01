@@ -402,6 +402,14 @@ footer {
 
 /* Media Queries */
 
+@media screen and (max-width: 1750px){
+    
+    .results p {
+        font-size: 1rem;
+    }
+    
+}
+
 @media screen and (max-width: 1600px){
 
     #logo {
@@ -420,6 +428,10 @@ footer {
 
     .social-networks i {
         margin: 0 5%;
+    }
+
+    #recap {
+        font-size: 1.2rem;
     }
 
 }
@@ -491,6 +503,18 @@ footer {
     .social-networks i {
         margin: 0 5%;
         font-size: 2.2rem;
+    }
+
+    .profile h2 {
+        font-size: 1.75rem;
+    }
+
+    .results p {
+        font-size: .8rem;
+    }
+
+    #recap {
+        font-size: 0.9rem;
     }
 }
 
@@ -573,6 +597,41 @@ footer {
         padding-top: 30px;
         font-size: 1.1rem;
     }
+
+    .profile {
+        width: 100%;
+    }
+
+    .profile img {
+        width: 100%;
+        float: none;
+    }
+
+    .profile h2 {
+        font-size: 1.2rem;
+    }
+
+    .results {
+        width: 100%;
+    }
+
+    .results h3 {
+        font-size: 1.4rem;
+    }
+
+    .results p {
+        font-size: 1rem;
+    }
+
+    .best-five, .worst-five {
+        margin-top: 30px;
+        width: 50%;
+    }
+
+    #recap {
+        font-size: 0.9rem;
+        margin-top: 320px;
+    }
     
 }
 
@@ -601,6 +660,15 @@ footer {
         font-size: 1.5rem;
         margin: 0 3%;
         margin-top: 50px;
+    }
+
+    .results p {
+        padding: 3px;
+    }
+
+    #recap {
+        overflow: scroll;
+        font-size: 0.8rem;
     }
     
 }
