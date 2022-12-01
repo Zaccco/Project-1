@@ -412,6 +412,7 @@ tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
     height: 50%;
     width: 100%;
     text-align: justify;
-    font-size: 1.65rem;
-    padding: 10px 40px;
+    font-size: 1.5rem;
+    padding: 20px;
+    box-sizing: border-box;
 }
