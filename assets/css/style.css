@@ -86,7 +86,11 @@ header {
     font-size: 105%;
 }
 
-#menu li:active, #menu a:active {
+#menu li:active {
+    color: #da291c;
+}
+
+#menu a:active {
     background-color: white;
     color:#da291c;
 }
@@ -347,4 +351,60 @@ tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
 .social-networks i:hover {
     background-color: transparent;
     color: #38383f;
+}
+
+/* Player profiles */
+
+.profile {
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+
+.profile img {
+    height: 90%;
+    width: 100%;
+}
+
+.results {
+    height: 100%;
+    width: 65%;
+    float: right;
+    text-align: center;
+}
+
+.results h3 {
+    font-size: 1.8rem;
+    padding: 10px 0;
+}
+
+.results p {
+    padding: 11px 0;
+    font-size: 1.3rem;
+}
+
+.best-five, .worst-five {
+    background-color: lightgrey;
+    margin-top: 82px;
+}
+
+.best-five {
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+
+.worst-five {
+    height: 50%;
+    width: 50%;
+    float: right;
+}
+
+#recap {
+    height: 50%;
+    width: 100%;
+    text-align: justify;
+    font-size: 1.65rem;
+    padding: 10px 40px;
+    box-sizing: border-box;
 }
