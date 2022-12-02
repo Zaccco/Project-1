@@ -627,13 +627,34 @@ footer {
 }
 
 @media screen and (max-width: 590px){
+
+    h2 {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
     #menu {
         float: left;
         margin-left: 10px;
     }
 
+    #hero-outer {
+        height: 50%;
+        width: 70%;
+        position: relative;
+        top: 70px;
+    }
+
+    #hero-image {
+        height: 50%;
+    }
+
+    #driver1, #driver2 {
+        font-size: 1rem;
+    }
+
     .right p {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     #standings td {
