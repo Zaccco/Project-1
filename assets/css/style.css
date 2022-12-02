@@ -344,14 +344,24 @@ footer {
 /* Player profiles */
 
 .profile {
+    height: 400px;
+    width: 100%;
+}
+
+.profile img {
     height: 100%;
     width: 35%;
     float: left;
 }
 
-.profile img {
-    height: 90%;
-    width: 100%;
+.profile p {
+    height: 100%;
+    width: 65%;
+    text-align: justify;
+    float: right;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
 }
 
 .profile h2 {
@@ -360,9 +370,8 @@ footer {
 }
 
 .results {
-    height: 100%;
-    width: 65%;
-    float: right;
+    height: 300px;
+    width: 100%;
     text-align: center;
 }
 
@@ -372,36 +381,34 @@ footer {
 }
 
 .results p {
-    padding: 11px 0;
+    padding: 10px 0;
     font-size: 1.3rem;
 }
 
 .best-five, .worst-five {
     background-color: lightgrey;
-    margin-top: 82px;
+    height: 100%;
 }
 
 .best-five {
-    height: 50%;
     width: 50%;
     float: left;
     border-radius: 10px 0 0 10px;
 }
 
 .worst-five {
-    height: 50%;
     width: 50%;
     float: right;
     border-radius: 0 10px 10px 0;
 }
 
 #recap {
-    height: 50%;
+    height: 200px;
     width: 100%;
-    text-align: justify;
+    text-align: center;
     font-size: 1.5rem;
     padding: 20px;
-    box-sizing: border-box;
+    margin-right: 0 !important;
 }
 
 /* Media Queries */
