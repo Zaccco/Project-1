@@ -242,6 +242,7 @@ p span {
     font-size: 1.8rem;
     color: white;
     border-radius: 10px;
+    width: 50%;
 }
 
 #standings td img {
@@ -594,7 +595,6 @@ footer {
         margin-top: 30px;
     }
 
-
   }
   
   /* 
@@ -616,7 +616,144 @@ footer {
   @media (min-width: 481px) and (max-width: 767px) {
     
     /* CSS */
-    
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #logo {
+        margin-left: 5px;
+    }
+
+    #logo {
+        color: white;
+        font-size: 0;
+    }
+
+    #menu {
+        margin-right: 5px;
+    }
+
+    #menu li {
+        margin-right: 2px
+    }
+
+    #menu a {
+        font-size: 0.9rem;
+    }
+
+    #mini-container {
+        height: 200px;
+    }
+
+    #hero-outer {
+        width: 100%;
+    }
+
+    #hero-image {
+        width: 100%;
+    }
+
+    #team-info {
+        height: 200px;
+        width: 70%;
+        top: 350px;
+    }
+
+    #team-info h3 {
+        font-size: 1.4rem;
+        text-shadow: none;
+    }
+
+    #team-info p {
+        font-size: .9rem;
+        line-height: 15px;
+    }
+
+    #driver-short {
+        margin-top: 230px;
+        height: 1580px;
+    }
+
+    #driver1, #driver2 {
+        height: 820px;
+        width: 100%;
+    }
+
+    .left img, .right {
+        height: 400px;
+    }
+
+    .left {
+        width: 100%;
+        height: 400px;
+    }
+
+    .right {
+        line-height: 65px;
+        width: 100%;
+        height: 400px;
+    }
+
+    #standings {
+        height: 60%;
+        width: 100%;
+    }
+
+    #standings th {
+        height: 150px;
+    }
+
+    #standings td {
+        font-size: 1rem;
+    }
+
+    #standings td img {
+        display: none;
+    }
+
+    #information {
+        width: 100%;
+        text-align: justify;
+        font-size: 1.1rem;
+        height: 40%;
+        overflow: scroll;
+    }
+
+    .social-networks {
+        height: 100px;
+    }
+
+    .social-networks i {
+        margin: 0 3%;
+        margin-bottom: 25px;
+    }
+
+    .profile {
+        width: 100%;
+    }
+
+    .results {
+        width: 100%;
+    }
+
+    .results h3 {
+        font-size: 1.3rem;
+    }
+
+    .results p {
+        font-size: 1.1rem;
+    }
+
+    #recap {
+        font-size: .9rem;
+        width: 100%;
+        margin-top: 320px;
+    }
+
+    .best-five, .worst-five {
+        margin-top: 30px;
+    }
   }
   
   /* 
