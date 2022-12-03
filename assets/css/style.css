@@ -407,15 +407,6 @@ footer {
     border-radius: 0 10px 10px 0;
 }
 
-#recap {
-    height: 200px;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 20px;
-    margin-right: 0 !important;
-}
-
 /* Media Queries */
 
 /* 
@@ -446,10 +437,6 @@ footer {
 
     .social-networks i {
         margin: 0 5%;
-    }
-    
-    #recap {
-        font-size: 1.2rem;
     }
 
   }
@@ -775,12 +762,6 @@ footer {
 
     .results p {
         font-size: 1.1rem;
-    }
-
-    #recap {
-        font-size: .9rem;
-        width: 100%;
-        margin-top: 320px;
     }
 
     .best-five, .worst-five {
