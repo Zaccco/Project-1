@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website documenting Ferrari's F1 2022 Season">
+    <meta name="keywords" content="formula1, ferrari, leclerc, sainz, motorsport, racing">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Ferrari's 2022 Season</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Welcome to Scuderia Ferrari <img src="assets/images/ferrari-logo.png" alt="Ferrari Logo"></h1>
+        </a>
+        <a href="index.html">
+        <img id="extra" src="assets/images/ferrari-logo.png" alt="Ferrari logo">
+        </a>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="drivers.html">Drivers</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="background">
+        <section>
+            <form action="#" method="post" class="contact-form">
+
+                <h2>Send a question or feedback</h2>
+
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+
+                <label for="email">Email Adress</label>
+                <input type="email" name="email" id="email" class="text-input" required>
+
+                <label for="question">Question</label>
+                <input type="radio" name="question_or_feedback" id="question" value="question" class="radio" required>
+
+                <label for="feedback">Feedback</label>
+                <input type="radio" name="question_or_feedback" id="feedback" value="feedback" class="radio">
+
+                <label for="text-box"></label>
+                <textarea name="text-box" id="text-box" placeholder="Please write your question or feedback here" cols="50" rows="10"></textarea>
+
+                <input type="submit" class="submit" value="Submit">
+            </form>
+        </section>
+
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/54ea7828c3.js" crossorigin="anonymous"></script>
+</body>
+</html>
