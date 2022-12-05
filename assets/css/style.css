@@ -686,6 +686,14 @@ textarea::placeholder {
         font-size: 1.2rem;
     }
 
+    .contact-form {
+        width: 50%;
+    }
+
+    .contact-form h2 {
+        font-size: 1.3rem;
+    }
+
   }
   
   /* 
@@ -820,6 +828,14 @@ textarea::placeholder {
         margin-bottom: 25px;
     }
 
+    .text-shadow {
+        padding: 20px 0;
+    }
+
+    #sainz {
+        margin-top: 680px;
+    }
+
     .profile img {
         width: 100%;
     }
@@ -844,6 +860,18 @@ textarea::placeholder {
 
     .best-five, .worst-five {
         margin-top: 30px;
+    }
+
+    .contact-form {
+        width: 60%;
+    }
+
+    .contact-form h2 {
+        font-size: 1.2rem;
+    }
+
+    .submit {
+        width: 100%;
     }
   }
   
@@ -974,7 +1002,7 @@ textarea::placeholder {
 
     #information {
         width: 100%;
-        text-align: justify;
+        text-align: center;
         font-size: 1.1rem;
         height: 40%;
         overflow: scroll;
@@ -987,6 +1015,14 @@ textarea::placeholder {
     .social-networks i {
         margin: 0 1%;
         margin-bottom: 25px;
+    }
+
+    .text-shadow {
+        padding: 20px 0;
+    }
+
+    #sainz {
+        margin-top: 690px;
     }
 
     .profile img {
@@ -1013,5 +1049,17 @@ textarea::placeholder {
 
     .best-five, .worst-five {
         margin-top: 30px;
+    }
+
+    .contact-form {
+        width: 70%;
+    }
+
+    .contact-form h2 {
+        font-size: 1.2rem;
+    }
+
+    .submit {
+        width: 100%;
     }
   }
