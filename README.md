@@ -8,7 +8,7 @@ Users of this website will be able to navigate to both the results of how all th
 
 # Features
 
-## Navigation
+* Navigation
 
     * At the top of the page there is a navigation menu that takes you to the three different pages that the website contains. 
     * First you have the welcome text and Ferrari logo that takes you to the home page. There is also a link in the menu "Home" that takes you to the home page.
@@ -17,42 +17,42 @@ Users of this website will be able to navigate to both the results of how all th
     
 <img src="assets/images/navigation.png">
 
-## Hero image and team info
+* Hero image and team info
 
     * The first section on the home page shows a hero image and some short information about the organization and history behind the team. 
     * This section lets users who aren't as familiar with Ferrari or even Formula 1 get a short introduction to the context of the website.
     
 <img src="assets/images/hero-image.png">
 
-## Drivers section
+* Drivers section
 
     * After the team info on the home page, the user will be able to scroll down to a drivers section that shows some background information and career results for both of this year's drivers.
     * This lets the user familiarize themselves with the two individuals who the website is mostly about.
     
 <img src="assets/images/home-drivers.png">
 
-## Constructors section
+* Constructors section
 
     * Next on the home page is the team results of the year, also called the constructors results. Here you can see how all the ten teams that competed this season placed in the final standings.
     * There is also a recap on how Ferrari did as a team and how this years results matched recent years and expectations.
     
 <img src="assets/images/home-constructors.png">
 
-## Detailed drivers results
+* Detailed drivers results
 
     * On the second page of the website, using the navigation menu or by clicking either drivers name the user will navigate to a more detailed view and discussion on how each driver did this season.
     * There is also a section that displays the best and worst race results.
     
 <img src="assets/images/drivers-page.png">
 
-## Contact form
+* Contact form
 
     * On the third page, accessed by the navigation menu, there is a contact form.
     * Here the user can submit a question or send feedback.
 
 <img src="assets/images/contact.png">
 
-## Footer
+* Footer
 
     * At the bottom of every page, there is a footer section
     * The footer shows social media icon links to some of the most common social medias.
@@ -78,9 +78,9 @@ Users of this website will be able to navigate to both the results of how all th
 
 # Surface
 
-## Colors
+### Colors
 
-### Main colors used un this project:
+Main colors used un this project:
 * background color: #f7f4f1; or linear-gradient(320deg, lightblue, white, lightblue)
 * font color: black
 * link color: #da291c
@@ -90,19 +90,19 @@ Users of this website will be able to navigate to both the results of how all th
 
 # Technologies used
 
-## HTML5
+### HTML5
 * As a structure language.
-## CSS
+### CSS
 * As a style language.
-## Font Awesome
+### Font Awesome
 * As an icon library for a social links.
-## Google fonts
+### Google fonts
 * As a font resource.
-## GitHub
+### GitHub
 * As a software hosting platform to keep project in a remote location.
-## Git
+### Git
 * As a version-control system tracking.
-## Gitpod
+### Gitpod
 * As a development hosting platform.
 
 # Testing
@@ -121,7 +121,7 @@ Users of this website will be able to navigate to both the results of how all th
 
 # Bugs
 
-## Solved bugs
+### Solved bugs
 
 * For a long time I had a bug where all the content of the page would be pushed right on smaller screen sizes. I could not understand why this happened until I found that I had quite large padding on my container elements. This caused the content to push outside the screen. 
     * To solve this, I simply removed the horizontal padding from the containers. 
