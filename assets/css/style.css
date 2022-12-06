@@ -280,6 +280,7 @@ p span {
 
 #mercedes {
     background-color: rgb(12, 165, 151);
+    color: black !important;
 }
 
 #alpine {
@@ -288,6 +289,7 @@ p span {
 
 #mclaren {
     background-color: rgb(255, 158, 27);
+    color: black !important;
 }
 
 #alfa {
