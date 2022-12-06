@@ -61,6 +61,8 @@ Users of this website will be able to navigate to both the results of how all th
 
 ## Testing
 
+* I used Chrome DevTools throughout the project to check that my CSS behaved as expected and also used it as a quicker way to change CSS before officially applying them. 
+
 * I have tested that this page works on different browsers, Chrome, Firefox and Safari.
 
 * I can confirm that the website is responsive and will look good on all standars screen sizes.
@@ -69,7 +71,7 @@ Users of this website will be able to navigate to both the results of how all th
 
 * I confirmed that all text, navigation, images etc. is easy to understand and easily readable.
 
-* I confirmed that the form works as expected, except for the submit button, which I will mention in greater detail in the Bugs section.
+* I confirmed that the form works as expected, except for the submit button, which I will mention in greater detail in the Unsolved bugs section.
 
 ## Bugs
 
@@ -100,3 +102,30 @@ Users of this website will be able to navigate to both the results of how all th
     <img src="assets/images/lighthouse-3.png">
 
 ## Unsolved bugs
+
+* When you click the submit button at the contact form page, a 405 Not Allowed message comes up. I would like to just have it refresh the page and say something along the lines of "Thank you for your submission".  
+<img src="assets/images/405.png">
+
+## Deployment
+
+* This website was deployed to GitHub pages. The steps to deply are as follows:
+    * In the GitHub repository, navigate top the Settings tab.
+    * From the menu on the left, select "Pages".
+    * From the source section drop-down menu, select the Main Branch.
+    * Once the main branch has been selected, the page provided the link to the completed website.
+
+The live link can be found here - [Ferrari's 2022 Season](https://zaccco.github.io/Project-1/index.html)
+
+## Credits
+
+* To complete this project I used Code Instítute student template: [Gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+* I used a specialized media queries module that can be found [here](https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488) to help me know the dimensions for common screen sizes and therefore be able to correctly make the website responsive.
+* A lot of this website's inspiration has come from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/08-responsive-elements/05-responsive-gallery) project.
+* The footer section is also taking directly from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/08-responsive-elements/05-responsive-gallery) project. However, the styling is done a little bit differently on this website.
+* A user by the name of [Yusril Maulidan Raji](https://stackoverflow.com/users/3097810/yusril-maulidan-raji) on Stack Overflow, provided a way to style the radio buttons in the contact form. The question and answer was found [here](https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons)
+* All the information about the Ferrari team and information about the drivers was found on [F1's Official Website](https://www.formula1.com/)
+* The official color used as background color for every team in the constructors table was found on [F1's Official Website](https://www.formula1.com/)
+
+## Media 
+
+* The transparet images for the car team-logos was either found on https://www.carlogos.org/ or https://logos-world.net/. 
