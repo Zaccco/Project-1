@@ -59,16 +59,44 @@ Users of this website will be able to navigate to both the results of how all th
 
 <img src="assets/images/footer.png">
 
+## Testing
 
+* I have tested that this page works on different browsers, Chrome, Firefox and Safari.
 
+* I can confirm that the website is responsive and will look good on all standars screen sizes.
 
+* I confirmed that all the links works as expected in the navigation menu as well as the footer social media links.
 
+* I confirmed that all text, navigation, images etc. is easy to understand and easily readable.
 
+* I confirmed that the form works as expected, except for the submit button, which I will mention in greater detail in the Bugs section.
 
+## Bugs
 
+### Solved bugs
 
+* For a long time I had a bug where all the content of the page would be pushed right on smaller screen sizes. I could not understand why this happened until I found that I had quite large padding on my container elements. This caused the content to push outside the screen. 
+    * To solve this, I simply removed the horizontal padding from the containers. 
 
+## Validator Testing
 
+* HTML
+    * No errors were found on either of the three pages when passing through the official W3C validator.
+* CSS
+    * No errors were found when passing through the official (Jigsaw) validator.
+* Accessibility
+    * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
+    * Home page: 
 
-[Code Institute](https://codeinstitute.net)
+    <img src="assets/images/lighthouse-1.png">
+
+    * Drivers page:
+
+    <img src="assets/images/lighthouse-2.png">
+
+    * Contact page:
+
+    <img src="assets/images/lighthouse-3.png">
+
+## Unsolved bugs
