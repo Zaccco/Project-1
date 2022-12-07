@@ -88,6 +88,9 @@ Main colors used un this project:
 ### Fonts
 * As a main font I used Lato, with a backup of sans-serif.
 
+### Images
+* I used images from [F1's Official Website](https://www.formula1.com/), [Car Logos](https://www.carlogos.org/) and [Logos World](https://logos-world.net/). All in which are credited in the Credits section.
+
 # Technologies used
 
 ### HTML5
@@ -164,14 +167,15 @@ The live link can be found here - [Ferrari's 2022 Season](https://zaccco.github.
 
 # Credits
 
-* To complete this project I used Code Instítute student template: [Gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+* To complete this project I used Code Instítute student template: [Gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template).
 * I used a specialized media queries module that can be found [here](https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488) to help me know the dimensions for common screen sizes and therefore be able to correctly make the website responsive.
 * A lot of this website's inspiration has come from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/08-responsive-elements/05-responsive-gallery) project.
 * The footer section is also taking directly from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/08-responsive-elements/05-responsive-gallery) project. However, the styling is done a little bit differently on this website.
-* A user by the name of [Yusril Maulidan Raji](https://stackoverflow.com/users/3097810/yusril-maulidan-raji) on Stack Overflow, provided a way to style the radio buttons in the contact form. The question and answer was found [here](https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons)
-* All the information about the Ferrari team and information about the drivers was found on [F1's Official Website](https://www.formula1.com/)
-* The official color used as background color for every team in the constructors table was found on [F1's Official Website](https://www.formula1.com/)
+* A user by the name of [Yusril Maulidan Raji](https://stackoverflow.com/users/3097810/yusril-maulidan-raji) on Stack Overflow, provided a way to style the radio buttons in the contact form. The question and answer was found [here](https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons).
+* All the information about the Ferrari team and information about the drivers was found on [F1's Official Website](https://www.formula1.com/).
+* The official color used as background color for every team in the constructors table was found on [F1's Official Website](https://www.formula1.com/).
 
 # Media 
 
-* The transparet images for the car team-logos was either found on https://www.carlogos.org/ or https://logos-world.net/. 
+* The driver and team photos used throughout the website are taken from [F1's Official Website](https://www.formula1.com/).
+* The transparet images for the car team-logos was either found on [Car Logos](https://www.carlogos.org/) or [Logos World](https://logos-world.net/).
